@@ -1,0 +1,17 @@
+# Runtime state - not backed up to GitHub
+runtime/queues/*
+runtime/drafts/*
+runtime/logs/*
+runtime/state/*
+
+# Keep directory structure
+!runtime/queues/.gitkeep
+!runtime/drafts/.gitkeep
+!runtime/logs/.gitkeep
+!runtime/state/.gitkeep
+
+# Secrets
+.env
+*.key
+*.token
+*-credentials.json
